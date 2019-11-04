@@ -1,3 +1,6 @@
+// Varibles
+var generate = document.querySelector("#generate");
+var copyPassword = document.querySelector("#password_done");
 
 //Arrays
 var lowercase = "abcdefghijklmnopqrstuvwxyz";
@@ -60,11 +63,15 @@ function resetPassword(){
     passwordFinal = "";
 }
 // Prompt activation when 'Generate Password' button is pressed
-function startGenerator(){
+generate.addEventListener("click", function(){
     resetPassword();
     getCharacterLength();
     getSpecialChar();
     createPassword();
-    }
+    })
 
+    copy.addEventListener("click", function () {
+        copyPassword.select();
+        document.execCommand("copy");
+      })
 
