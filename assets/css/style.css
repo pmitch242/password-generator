@@ -1,0 +1,41 @@
+/* backgroung container */
+.background-container{
+    margin: 20px;
+    padding: 15px;
+    background-color: #e8edf3;
+}
+header{
+    text-align: center;
+}
+
+/* ================================================================ */
+/* main-container */
+.main-container{
+    background-color: white;
+    padding-left: 20px;
+}
+
+.border-first{
+    border-bottom: 2px gray solid;
+    width: 97%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.border-second{
+    border-top: 2px gray solid;
+    padding-top: 20px;
+}
+
+textarea{
+    height: 150px;
+    width: 100%;
+    border: 2px dashed gray;
+
+}
+
+.textcontainer{
+    width: 100%;
+    margin: 20px 30px;
+}
+
