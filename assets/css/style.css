@@ -8,7 +8,6 @@ header{
     text-align: center;
 }
 
-/* ================================================================ */
 /* main-container */
 .main-container{
     background-color: white;
@@ -34,8 +33,7 @@ textarea{
 
 }
 
-.textcontainer{
-    width: 100%;
-    margin: 20px 30px;
+.button-container{
+    padding-bottom: 20px;
 }
 
